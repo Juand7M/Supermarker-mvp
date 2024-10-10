@@ -35,7 +35,7 @@ namespace Supermarker_mvp.Models
 
         [DisplayName("Customers Birthday")]
         [Required(ErrorMessage = "Customers Birthday is required")]
-        public DateTime Birthday { get; set; }
+        public DateTime? Birthday { get; set; }
 
         [DisplayName("Customers Phone_Number")]
         [Required(ErrorMessage = "Customers Phone_Number is required")]
