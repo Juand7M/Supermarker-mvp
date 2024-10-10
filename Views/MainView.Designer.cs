@@ -32,6 +32,7 @@
             BtnPayMode = new Button();
             panel1 = new Panel();
             BtnExit = new Button();
+            btnCustomers = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -54,12 +55,13 @@
             BtnPayMode.Dock = DockStyle.Top;
             BtnPayMode.Location = new Point(0, 59);
             BtnPayMode.Name = "BtnPayMode";
-            BtnPayMode.Size = new Size(250, 108);
+            BtnPayMode.Size = new Size(250, 85);
             BtnPayMode.TabIndex = 1;
             BtnPayMode.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
+            panel1.Controls.Add(btnCustomers);
             panel1.Controls.Add(BtnExit);
             panel1.Controls.Add(BtnPayMode);
             panel1.Controls.Add(pictureBox1);
@@ -74,11 +76,22 @@
             BtnExit.BackgroundImage = Properties.Resources.cerrar_sesion;
             BtnExit.BackgroundImageLayout = ImageLayout.Zoom;
             BtnExit.Dock = DockStyle.Bottom;
-            BtnExit.Location = new Point(0, 334);
+            BtnExit.Location = new Point(0, 359);
             BtnExit.Name = "BtnExit";
-            BtnExit.Size = new Size(250, 116);
+            BtnExit.Size = new Size(250, 91);
             BtnExit.TabIndex = 2;
             BtnExit.UseVisualStyleBackColor = true;
+            // 
+            // btnCustomers
+            // 
+            btnCustomers.BackgroundImage = Properties.Resources.apoyo_tecnico;
+            btnCustomers.BackgroundImageLayout = ImageLayout.Zoom;
+            btnCustomers.Dock = DockStyle.Top;
+            btnCustomers.Location = new Point(0, 144);
+            btnCustomers.Name = "btnCustomers";
+            btnCustomers.Size = new Size(250, 81);
+            btnCustomers.TabIndex = 3;
+            btnCustomers.UseVisualStyleBackColor = true;
             // 
             // MainView
             // 
@@ -101,5 +114,6 @@
         private Button BtnPayMode;
         private Panel panel1;
         private Button BtnExit;
+        private Button btnCustomers;
     }
 }

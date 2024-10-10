@@ -129,6 +129,7 @@
             // 
             // btnCLose
             // 
+            btnCLose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnCLose.Image = Properties.Resources.cerrar;
             btnCLose.Location = new Point(657, 217);
             btnCLose.Name = "btnCLose";
@@ -138,6 +139,7 @@
             // 
             // btnDelete
             // 
+            btnDelete.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnDelete.Image = Properties.Resources.delete;
             btnDelete.Location = new Point(657, 169);
             btnDelete.Name = "btnDelete";
@@ -147,6 +149,7 @@
             // 
             // btnEdit
             // 
+            btnEdit.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnEdit.Image = Properties.Resources.edit;
             btnEdit.Location = new Point(657, 121);
             btnEdit.Name = "btnEdit";
@@ -156,6 +159,7 @@
             // 
             // btnNew
             // 
+            btnNew.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnNew.BackgroundImageLayout = ImageLayout.None;
             btnNew.Image = Properties.Resources._new;
             btnNew.Location = new Point(657, 75);
@@ -168,6 +172,8 @@
             // 
             DgCustomers.AllowUserToAddRows = false;
             DgCustomers.AllowUserToDeleteRows = false;
+            DgCustomers.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            DgCustomers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             DgCustomers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DgCustomers.Location = new Point(8, 84);
             DgCustomers.Name = "DgCustomers";
@@ -178,6 +184,7 @@
             // 
             // btnSearch
             // 
+            btnSearch.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnSearch.Image = Properties.Resources.search_small;
             btnSearch.Location = new Point(572, 28);
             btnSearch.Name = "btnSearch";
@@ -187,6 +194,7 @@
             // 
             // txtSearch
             // 
+            txtSearch.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtSearch.Location = new Point(8, 40);
             txtSearch.Name = "txtSearch";
             txtSearch.PlaceholderText = "Data to Search";
@@ -196,9 +204,10 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(6, 17);
             label2.Name = "label2";
-            label2.Size = new Size(126, 20);
+            label2.Size = new Size(152, 23);
             label2.TabIndex = 0;
             label2.Text = "Search Customers";
             // 

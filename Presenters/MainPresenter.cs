@@ -14,12 +14,21 @@ namespace Supermarker_mvp.Presenters
         private readonly IMainView mainView;
         private readonly string sqlConnectionString;
 
+
         public MainPresenter(IMainView mainView, string sqlConnectionString)
         {
             this.mainView = mainView;
             this.sqlConnectionString = sqlConnectionString;
 
             this.mainView.ShowPayModeView += ShowPayModeView;
+            this.mainView.ShowCustomersView += ShowCustomersView;
+        }
+
+        private void ShowCustomersView(object? sender, EventArgs e)
+        {
+            ICustomersView view = CustomersView.GetInstance((MainView)mainView);
+            ICustomersRepository repository = new CustomersRepository(sqlConnectionString);
+            new CustomersPresenter(view, repository);
         }
 
         private void ShowPayModeView(object? sender, EventArgs e)
