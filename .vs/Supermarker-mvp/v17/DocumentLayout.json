@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\._repositories\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:._repositories\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\views\\categoriesview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:views\\categoriesview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\views\\categoriesview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:views\\categoriesview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\presenters\\categoriespresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:presenters\\categoriespresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\views\\categoriesview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:views\\categoriesview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\presenters\\mainpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\views\\customersview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:views\\customersview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\._repositories\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:._repositories\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\presenters\\categoriespresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:presenters\\categoriespresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\views\\icategoriesview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MainView.cs",
               "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\MainView.cs",
               "RelativeDocumentMoniker": "Views\\MainView.cs",
@@ -67,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainView.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\MainView.cs",
               "RelativeDocumentMoniker": "Views\\MainView.cs",
@@ -79,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CategoriesView.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\CategoriesView.cs",
               "RelativeDocumentMoniker": "Views\\CategoriesView.cs",
@@ -91,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainPresenter.cs",
               "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Presenters\\MainPresenter.cs",
               "RelativeDocumentMoniker": "Presenters\\MainPresenter.cs",
@@ -104,58 +100,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CategoriesView.cs",
               "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\CategoriesView.cs",
               "RelativeDocumentMoniker": "Views\\CategoriesView.cs",
               "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\CategoriesView.cs*",
               "RelativeToolTip": "Views\\CategoriesView.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA6wFQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T16:48:37.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomersView.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\CustomersView.cs",
-              "RelativeDocumentMoniker": "Views\\CustomersView.cs",
-              "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\CustomersView.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Views\\CustomersView.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T03:58:46.211Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "CategoriesRepository.cs",
               "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\._Repositories\\CategoriesRepository.cs",
               "RelativeDocumentMoniker": "._Repositories\\CategoriesRepository.cs",
               "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\._Repositories\\CategoriesRepository.cs",
               "RelativeToolTip": "._Repositories\\CategoriesRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T17:28:02.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "CategoriesPresenter.cs",
               "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Presenters\\CategoriesPresenter.cs",
               "RelativeDocumentMoniker": "Presenters\\CategoriesPresenter.cs",
               "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Presenters\\CategoriesPresenter.cs",
               "RelativeToolTip": "Presenters\\CategoriesPresenter.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB8AAAA0AAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwHcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T17:06:13.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "ICategoriesView.cs",
               "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\ICategoriesView.cs",
               "RelativeDocumentMoniker": "Views\\ICategoriesView.cs",
@@ -168,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "CategoriesModel.cs",
               "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Models\\CategoriesModel.cs",
               "RelativeDocumentMoniker": "Models\\CategoriesModel.cs",

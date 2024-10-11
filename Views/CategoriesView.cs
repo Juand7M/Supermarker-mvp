@@ -20,7 +20,7 @@ namespace Supermarker_mvp.Views
             InitializeComponent();
             AssociateAndRaiseViewEvents();
 
-            tabControl1.TabPages.Remove(tabPageCustomersDetail);
+            tabControl1.TabPages.Remove(tabPageCategoriesDetail);
 
             btnClose.Click += delegate { this.Close(); };
         }
@@ -35,6 +35,58 @@ namespace Supermarker_mvp.Views
                     SearchEvent?.Invoke(this, EventArgs.Empty);
                 }
             };
+
+            btnNew.Click += delegate
+            {
+                AddNewEvent?.Invoke(this, EventArgs.Empty);
+                tabControl1.TabPages.Remove(tabPageCategoriesList);
+                tabControl1.TabPages.Add(tabPageCategoriesDetail);
+                tabPageCategoriesDetail.Text = "Add New Categories";
+            };
+
+            btnEdit.Click += delegate
+            {
+                EditEvent?.Invoke(this, EventArgs.Empty);
+
+                tabControl1.TabPages.Remove(tabPageCategoriesList);
+                tabControl1.TabPages.Add(tabPageCategoriesDetail);
+                tabPageCategoriesDetail.Text = "Edit Categories";
+
+            };
+
+            btnDelete.Click += delegate
+            {
+                var result = MessageBox.Show(
+                    "Are you sure you want to delete the selected Categories",
+                    "Warning",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
+                {
+                    DeleteEvent?.Invoke(this, EventArgs.Empty);
+                    MessageBox.Show(Message);
+                }
+
+            };
+            
+            btnSave.Click += delegate
+            {
+                SaveEvent?.Invoke(this, EventArgs.Empty);
+
+                if (isSuccessful)
+                {
+                    tabControl1.TabPages.Remove(tabPageCategoriesDetail);
+                    tabControl1.TabPages.Add(tabPageCategoriesList);
+                }
+                MessageBox.Show(Message);
+            };
+
+            btnCancel.Click += delegate
+            {
+                CancelEvent?.Invoke(this, EventArgs.Empty);
+                tabControl1.TabPages.Remove(tabPageCategoriesDetail);
+                tabControl1.TabPages.Add(tabPageCategoriesList);
+            };
+
         }
 
         public string CategoriesId

@@ -32,7 +32,7 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             tabControl1 = new TabControl();
-            tabPageCustomersList = new TabPage();
+            tabPageCategoriesList = new TabPage();
             btnClose = new Button();
             btnDelete = new Button();
             btnEdit = new Button();
@@ -41,7 +41,7 @@
             btnSearch = new Button();
             txtSearch = new TextBox();
             label2 = new Label();
-            tabPageCustomersDetail = new TabPage();
+            tabPageCategoriesDetail = new TabPage();
             txtCategoriesDescription = new TextBox();
             txtCategoriesName = new TextBox();
             txtCategoriesId = new TextBox();
@@ -53,9 +53,9 @@
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tabControl1.SuspendLayout();
-            tabPageCustomersList.SuspendLayout();
+            tabPageCategoriesList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)DgCategories).BeginInit();
-            tabPageCustomersDetail.SuspendLayout();
+            tabPageCategoriesDetail.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -89,8 +89,8 @@
             // 
             // tabControl1
             // 
-            tabControl1.Controls.Add(tabPageCustomersList);
-            tabControl1.Controls.Add(tabPageCustomersDetail);
+            tabControl1.Controls.Add(tabPageCategoriesList);
+            tabControl1.Controls.Add(tabPageCategoriesDetail);
             tabControl1.Dock = DockStyle.Fill;
             tabControl1.Location = new Point(0, 125);
             tabControl1.Name = "tabControl1";
@@ -98,23 +98,23 @@
             tabControl1.Size = new Size(800, 325);
             tabControl1.TabIndex = 1;
             // 
-            // tabPageCustomersList
+            // tabPageCategoriesList
             // 
-            tabPageCustomersList.Controls.Add(btnClose);
-            tabPageCustomersList.Controls.Add(btnDelete);
-            tabPageCustomersList.Controls.Add(btnEdit);
-            tabPageCustomersList.Controls.Add(btnNew);
-            tabPageCustomersList.Controls.Add(DgCategories);
-            tabPageCustomersList.Controls.Add(btnSearch);
-            tabPageCustomersList.Controls.Add(txtSearch);
-            tabPageCustomersList.Controls.Add(label2);
-            tabPageCustomersList.Location = new Point(4, 29);
-            tabPageCustomersList.Name = "tabPageCustomersList";
-            tabPageCustomersList.Padding = new Padding(3);
-            tabPageCustomersList.Size = new Size(792, 292);
-            tabPageCustomersList.TabIndex = 0;
-            tabPageCustomersList.Text = "Categories List";
-            tabPageCustomersList.UseVisualStyleBackColor = true;
+            tabPageCategoriesList.Controls.Add(btnClose);
+            tabPageCategoriesList.Controls.Add(btnDelete);
+            tabPageCategoriesList.Controls.Add(btnEdit);
+            tabPageCategoriesList.Controls.Add(btnNew);
+            tabPageCategoriesList.Controls.Add(DgCategories);
+            tabPageCategoriesList.Controls.Add(btnSearch);
+            tabPageCategoriesList.Controls.Add(txtSearch);
+            tabPageCategoriesList.Controls.Add(label2);
+            tabPageCategoriesList.Location = new Point(4, 29);
+            tabPageCategoriesList.Name = "tabPageCategoriesList";
+            tabPageCategoriesList.Padding = new Padding(3);
+            tabPageCategoriesList.Size = new Size(792, 292);
+            tabPageCategoriesList.TabIndex = 0;
+            tabPageCategoriesList.Text = "Categories List";
+            tabPageCategoriesList.UseVisualStyleBackColor = true;
             // 
             // btnClose
             // 
@@ -161,6 +161,7 @@
             DgCategories.AllowUserToAddRows = false;
             DgCategories.AllowUserToDeleteRows = false;
             DgCategories.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            DgCategories.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             DgCategories.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DgCategories.Location = new Point(17, 73);
             DgCategories.Name = "DgCategories";
@@ -198,23 +199,23 @@
             label2.TabIndex = 0;
             label2.Text = "Search Categories";
             // 
-            // tabPageCustomersDetail
+            // tabPageCategoriesDetail
             // 
-            tabPageCustomersDetail.Controls.Add(txtCategoriesDescription);
-            tabPageCustomersDetail.Controls.Add(txtCategoriesName);
-            tabPageCustomersDetail.Controls.Add(txtCategoriesId);
-            tabPageCustomersDetail.Controls.Add(label5);
-            tabPageCustomersDetail.Controls.Add(label4);
-            tabPageCustomersDetail.Controls.Add(label3);
-            tabPageCustomersDetail.Controls.Add(btnCancel);
-            tabPageCustomersDetail.Controls.Add(btnSave);
-            tabPageCustomersDetail.Location = new Point(4, 29);
-            tabPageCustomersDetail.Name = "tabPageCustomersDetail";
-            tabPageCustomersDetail.Padding = new Padding(3);
-            tabPageCustomersDetail.Size = new Size(792, 292);
-            tabPageCustomersDetail.TabIndex = 1;
-            tabPageCustomersDetail.Text = "Categories Detail";
-            tabPageCustomersDetail.UseVisualStyleBackColor = true;
+            tabPageCategoriesDetail.Controls.Add(txtCategoriesDescription);
+            tabPageCategoriesDetail.Controls.Add(txtCategoriesName);
+            tabPageCategoriesDetail.Controls.Add(txtCategoriesId);
+            tabPageCategoriesDetail.Controls.Add(label5);
+            tabPageCategoriesDetail.Controls.Add(label4);
+            tabPageCategoriesDetail.Controls.Add(label3);
+            tabPageCategoriesDetail.Controls.Add(btnCancel);
+            tabPageCategoriesDetail.Controls.Add(btnSave);
+            tabPageCategoriesDetail.Location = new Point(4, 29);
+            tabPageCategoriesDetail.Name = "tabPageCategoriesDetail";
+            tabPageCategoriesDetail.Padding = new Padding(3);
+            tabPageCategoriesDetail.Size = new Size(792, 292);
+            tabPageCategoriesDetail.TabIndex = 1;
+            tabPageCategoriesDetail.Text = "Categories Detail";
+            tabPageCategoriesDetail.UseVisualStyleBackColor = true;
             // 
             // txtCategoriesDescription
             // 
@@ -237,8 +238,11 @@
             // 
             txtCategoriesId.Location = new Point(37, 40);
             txtCategoriesId.Name = "txtCategoriesId";
+            txtCategoriesId.ReadOnly = true;
             txtCategoriesId.Size = new Size(160, 27);
             txtCategoriesId.TabIndex = 5;
+            txtCategoriesId.Text = "0";
+            txtCategoriesId.TextAlign = HorizontalAlignment.Right;
             // 
             // label5
             // 
@@ -300,11 +304,11 @@
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             tabControl1.ResumeLayout(false);
-            tabPageCustomersList.ResumeLayout(false);
-            tabPageCustomersList.PerformLayout();
+            tabPageCategoriesList.ResumeLayout(false);
+            tabPageCategoriesList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)DgCategories).EndInit();
-            tabPageCustomersDetail.ResumeLayout(false);
-            tabPageCustomersDetail.PerformLayout();
+            tabPageCategoriesDetail.ResumeLayout(false);
+            tabPageCategoriesDetail.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -314,8 +318,8 @@
         private PictureBox pictureBox1;
         private Label label1;
         private TabControl tabControl1;
-        private TabPage tabPageCustomersList;
-        private TabPage tabPageCustomersDetail;
+        private TabPage tabPageCategoriesList;
+        private TabPage tabPageCategoriesDetail;
         private Button btnSearch;
         private TextBox txtSearch;
         private Label label2;
