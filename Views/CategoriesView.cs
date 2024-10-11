@@ -21,6 +21,8 @@ namespace Supermarker_mvp.Views
             AssociateAndRaiseViewEvents();
 
             tabControl1.TabPages.Remove(tabPageCustomersDetail);
+
+            btnClose.Click += delegate { this.Close(); };
         }
 
         private void AssociateAndRaiseViewEvents()
