@@ -31,8 +31,9 @@
             pictureBox1 = new PictureBox();
             BtnPayMode = new Button();
             panel1 = new Panel();
-            BtnExit = new Button();
             btnCustomers = new Button();
+            BtnExit = new Button();
+            btnCategories = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -61,6 +62,7 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(btnCategories);
             panel1.Controls.Add(btnCustomers);
             panel1.Controls.Add(BtnExit);
             panel1.Controls.Add(BtnPayMode);
@@ -70,6 +72,17 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(250, 450);
             panel1.TabIndex = 3;
+            // 
+            // btnCustomers
+            // 
+            btnCustomers.BackgroundImage = Properties.Resources.apoyo_tecnico;
+            btnCustomers.BackgroundImageLayout = ImageLayout.Zoom;
+            btnCustomers.Dock = DockStyle.Top;
+            btnCustomers.Location = new Point(0, 144);
+            btnCustomers.Name = "btnCustomers";
+            btnCustomers.Size = new Size(250, 81);
+            btnCustomers.TabIndex = 3;
+            btnCustomers.UseVisualStyleBackColor = true;
             // 
             // BtnExit
             // 
@@ -82,16 +95,16 @@
             BtnExit.TabIndex = 2;
             BtnExit.UseVisualStyleBackColor = true;
             // 
-            // btnCustomers
+            // btnCategories
             // 
-            btnCustomers.BackgroundImage = Properties.Resources.apoyo_tecnico;
-            btnCustomers.BackgroundImageLayout = ImageLayout.Zoom;
-            btnCustomers.Dock = DockStyle.Top;
-            btnCustomers.Location = new Point(0, 144);
-            btnCustomers.Name = "btnCustomers";
-            btnCustomers.Size = new Size(250, 81);
-            btnCustomers.TabIndex = 3;
-            btnCustomers.UseVisualStyleBackColor = true;
+            btnCategories.BackgroundImage = Properties.Resources.categorias;
+            btnCategories.BackgroundImageLayout = ImageLayout.Zoom;
+            btnCategories.Dock = DockStyle.Top;
+            btnCategories.Location = new Point(0, 225);
+            btnCategories.Name = "btnCategories";
+            btnCategories.Size = new Size(250, 71);
+            btnCategories.TabIndex = 4;
+            btnCategories.UseVisualStyleBackColor = true;
             // 
             // MainView
             // 
@@ -115,5 +128,6 @@
         private Panel panel1;
         private Button BtnExit;
         private Button btnCustomers;
+        private Button btnCategories;
     }
 }
