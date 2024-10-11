@@ -184,9 +184,10 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(6, 15);
             label2.Name = "label2";
-            label2.Size = new Size(122, 20);
+            label2.Size = new Size(128, 20);
             label2.TabIndex = 1;
             label2.Text = "Search Pay Mode";
             // 
@@ -265,27 +266,30 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(35, 145);
             label5.Name = "label5";
-            label5.Size = new Size(158, 20);
+            label5.Size = new Size(168, 20);
             label5.TabIndex = 2;
             label5.Text = "Pay Mode Observation";
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.Location = new Point(35, 82);
             label4.Name = "label4";
-            label4.Size = new Size(118, 20);
+            label4.Size = new Size(124, 20);
             label4.TabIndex = 1;
             label4.Text = "Pay Mode Name";
             // 
             // label3
             // 
             label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.Location = new Point(35, 17);
             label3.Name = "label3";
-            label3.Size = new Size(91, 20);
+            label3.Size = new Size(96, 20);
             label3.TabIndex = 0;
             label3.Text = "Pay Mode Id";
             // 

@@ -19,7 +19,7 @@ namespace Supermarker_mvp.Models
 
         [DisplayName("Description")]
         [Required(ErrorMessage = " Categories descripcion is required")]
-        [StringLength(200, MinimumLength =3, ErrorMessage ="Categories description must be between 3 and 200 characters")]
+        [StringLength(50, MinimumLength =3, ErrorMessage ="Categories description must be between 3 and 50 characters")]
         public string Description { get; set; }
     }
 }
