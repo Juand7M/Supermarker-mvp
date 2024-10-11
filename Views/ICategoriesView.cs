@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Supermarker_mvp.Views
 {
-    internal interface ICategoreisView
+    internal interface ICategoriesView
     {
         string CategoriesId { get; set; }
         string CategoriesName { get; set; }
@@ -24,7 +24,7 @@ namespace Supermarker_mvp.Views
         event EventHandler SaveEvent;
         event EventHandler CancelEvent;
 
-        void SetCustomersListBildingSource(BindingSource customersList);
+        void SetCategoriesListBildingSource(BindingSource categoriesList);
         void Show();
     }
 }
