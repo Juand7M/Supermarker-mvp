@@ -36,6 +36,56 @@ namespace Supermarker_mvp.Views
                     SearchEvent?.Invoke(this, EventArgs.Empty);
                 }
             };
+
+            btnNew.Click += delegate {
+                AddNewEvent?.Invoke(this, EventArgs.Empty);
+
+                tabControl1.TabPages.Remove(tabPageCustomersList);
+                tabControl1.TabPages.Add(tabPageCustomersDetail);
+                tabPageCustomersDetail.Text = "Add New Customers";
+
+            };
+
+
+
+            btnEdit.Click += delegate {
+                EditEvent?.Invoke(this, EventArgs.Empty);
+
+                tabControl1.TabPages.Remove(tabPageCustomersList);
+                tabControl1.TabPages.Add(tabPageCustomersDetail);
+                tabPageCustomersList.Text = "Edit Customers";
+
+            };
+
+            btnDelete.Click += delegate {
+                var result = MessageBox.Show(
+                    "Are you sure you want to delete the selected Customers",
+                    "Warning",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
+                {
+                    DeleteEvent?.Invoke(this, EventArgs.Empty);
+                    MessageBox.Show(Message);
+                }
+            };
+
+            btnSave.Click += delegate {
+                SaveEvent?.Invoke(this, EventArgs.Empty);
+                if (isSuccessful)//Si grabar fue exitoso
+                {
+                    tabControl1.TabPages.Remove(tabPageCustomersDetail);
+                    tabControl1.TabPages.Add(tabPageCustomersList);
+                }
+                MessageBox.Show(Message);
+
+            };
+
+            btnCancel.Click += delegate {
+                CancelEvent?.Invoke(this, EventArgs.Empty);
+
+                tabControl1.TabPages.Remove(tabPageCustomersDetail);
+                tabControl1.TabPages.Add(tabPageCustomersList);
+            };
         }
 
         public string CustomersId 
