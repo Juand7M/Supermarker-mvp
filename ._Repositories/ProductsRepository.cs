@@ -39,7 +39,7 @@ namespace Supermarker_mvp._Repositories
             {
                 connection?.Open();
                 command.Connection = connection;
-                command.CommandText = "DELETE FROM Products WHERE Products_Id = @id";
+                command.CommandText = "DELETE FROM Products WHERE Product_Id = @id";
                 command.Parameters.Add("@id", SqlDbType.Int).Value = id;
                 command.ExecuteNonQuery();
             }
@@ -52,11 +52,11 @@ namespace Supermarker_mvp._Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = @"UPDATE Products SET Products_Name = @name,
-                                        Products_Price = @price,
-                                        Products_Stock = @stock,
-                                        Products_Categories_Id = @categoriesId
-                                        WHERE Products_Id = @Id";
+                command.CommandText = @"UPDATE Products SET Product_Name = @name,
+                                        Product_Price = @price,
+                                        Product_Stock = @stock,
+                                        Product_Categories_Id = @categoriesId
+                                        WHERE Product_Id = @Id";
                 command.Parameters.Add("@name", SqlDbType.NVarChar).Value = productsModel.Name;
                 command.Parameters.Add("@price", SqlDbType.NVarChar).Value = productsModel.Price;
                 command.Parameters.Add("@stock", SqlDbType.NVarChar).Value = productsModel.Stock;
@@ -75,17 +75,17 @@ namespace Supermarker_mvp._Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = "SELECT * FROM Products ORDER BY Products_Id DESC";
+                command.CommandText = "SELECT * FROM Products ORDER BY Product_Id DESC";
                 using (var reader = command.ExecuteReader())
                 {
                     while (reader.Read())
                     {
                         var productsModel = new ProductsModel();
-                        productsModel.Id = (int)reader["Products_Id"];
-                        productsModel.Name = reader["Products_Name"].ToString();
-                        productsModel.Price = reader["Products_Price"].ToString();
-                        productsModel.Stock = reader["Products_Stock"].ToString();
-                        productsModel.Categories_Id = reader["Products_Categories_Id"].ToString();
+                        productsModel.Id = (int)reader["Product_Id"];
+                        productsModel.Name = reader["Product_Name"].ToString();
+                        productsModel.Price = reader["Product_Price"].ToString();
+                        productsModel.Stock = reader["Product_Stock"].ToString();
+                        productsModel.Categories_Id = reader["Product_Categories_Id"].ToString();
                         productsList.Add(productsModel);
                     }
                 }
@@ -103,8 +103,8 @@ namespace Supermarker_mvp._Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = @"SELECT * FROM Products WHERE Products_Id=@id or Products_Name LIKE @name+ '%'
-                                      ORDER by Products_Id DESC";
+                command.CommandText = @"SELECT * FROM Products WHERE Product_Id=@id or Product_Name LIKE @name+ '%'
+                                      ORDER by Product_Id DESC";
                 command.Parameters.Add("@id", SqlDbType.Int).Value = productsId;
                 command.Parameters.Add("@name", SqlDbType.NVarChar).Value = productsName;
                 using (var reader = command.ExecuteReader())
@@ -112,11 +112,11 @@ namespace Supermarker_mvp._Repositories
                     while (reader.Read())
                     {
                         var productsModel = new ProductsModel();
-                        productsModel.Id = (int)reader["Products_Id"];
-                        productsModel.Name = reader["Products_Name"].ToString();
-                        productsModel.Price = reader["Products_Price"].ToString();
-                        productsModel.Stock = reader["Products_Stock"].ToString();
-                        productsModel.Categories_Id = reader["Products_Categories_Id"].ToString();
+                        productsModel.Id = (int)reader["Product_Id"];
+                        productsModel.Name = reader["Product_Name"].ToString();
+                        productsModel.Price = reader["Product_Price"].ToString();
+                        productsModel.Stock = reader["Product_Stock"].ToString();
+                        productsModel.Categories_Id = reader["Product_Categories_Id"].ToString();
                         productsList.Add(productsModel);
                     }
                 }

@@ -14,6 +14,7 @@
     <Compile Include="._Repositories\CategoriesRepository.cs" />
     <Compile Include="._Repositories\CustomersRepository.cs" />
     <Compile Include="._Repositories\PayModeRepository.cs" />
+    <Compile Include="._Repositories\ProductsRepository.cs" />
   </ItemGroup>
 
   <ItemGroup>

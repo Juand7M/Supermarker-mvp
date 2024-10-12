@@ -18,12 +18,12 @@ namespace Supermarker_mvp.Views
             BtnPayMode.Click += delegate { ShowPayModeView?.Invoke(this, EventArgs.Empty); };
             btnCustomers.Click += delegate { ShowCustomersView?.Invoke(this, EventArgs.Empty); };
             btnCategories.Click += delegate { ShowCategoriesView?.Invoke(this, EventArgs.Empty); };
-
+            btnProducts.Click += delegate { ShowProductsView?.Invoke(this, EventArgs.Empty); };
             BtnExit.Click += delegate { this.Close(); };
         }
         
         public event EventHandler ShowPayModeView;
-        public event EventHandler ShowProductView;
+        public event EventHandler ShowProductsView;
         public event EventHandler ShowCustomersView;
         public event EventHandler ShowCategoriesView;
     }
