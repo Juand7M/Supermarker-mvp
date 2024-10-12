@@ -24,7 +24,7 @@ namespace Supermarker_mvp.Presenters
 
             this.view.SearchEvent += SearchCategories;
             this.view.AddNewEvent += AddNewCategories;
-            this.view.EditEvent += LoadSelectCategorieToEdit;
+            this.view.EditEvent += LoadSelectCategoriesToEdit;
             this.view.DeleteEvent += DeleteSelectedCategories;
             this.view.SaveEvent += SaveCategories;
             this.view.CancelEvent += CancelAction;
@@ -104,7 +104,7 @@ namespace Supermarker_mvp.Presenters
             }
         }
 
-        private void LoadSelectCategorieToEdit(object? sender, EventArgs e)
+        private void LoadSelectCategoriesToEdit(object? sender, EventArgs e)
         {
             var categories = (CategoriesModel)categoriesBindingSource.Current;
 

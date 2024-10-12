@@ -27,7 +27,7 @@ namespace Supermarker_mvp.Views
         event EventHandler SaveEvent;
         event EventHandler CancelEvent;
 
-        void SetCategoriesListBildingSource(BindingSource productsList);
+        void SetProductsListBildingSource(BindingSource productsList);
         void Show();
     }
 }

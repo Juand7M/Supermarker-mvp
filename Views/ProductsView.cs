@@ -27,7 +27,14 @@ namespace Supermarker_mvp.Views
 
         private void AssociateAndRaiseViewEvents()
         {
-            throw new NotImplementedException();
+            btnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
+            txtSearch.KeyDown += (s, e) =>
+            {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    SearchEvent?.Invoke(this, EventArgs.Empty);
+                }
+            };
         }
 
         public string ProductsId
