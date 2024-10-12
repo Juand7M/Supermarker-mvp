@@ -41,7 +41,7 @@ namespace Supermarker_mvp._Repositories
                     {
                         command.Connection = connection;
                         command.Transaction = transaction;
-                        command.CommandText = "DELETE FROM Product WHERE  Product_Categories_Id = @id";
+                        command.CommandText = "DELETE FROM Products WHERE  Product_Categories_Id = @id";
                         command.Parameters.Add("@id", SqlDbType.Int).Value = id;
                         command.ExecuteNonQuery();
 

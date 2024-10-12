@@ -126,6 +126,7 @@
             DgProducts.AllowUserToAddRows = false;
             DgProducts.AllowUserToDeleteRows = false;
             DgProducts.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            DgProducts.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             DgProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DgProducts.Location = new Point(12, 73);
             DgProducts.Name = "DgProducts";
@@ -275,8 +276,11 @@
             // 
             txtProductsId.Location = new Point(25, 50);
             txtProductsId.Name = "txtProductsId";
+            txtProductsId.ReadOnly = true;
             txtProductsId.Size = new Size(125, 27);
             txtProductsId.TabIndex = 5;
+            txtProductsId.Text = "0";
+            txtProductsId.TextAlign = HorizontalAlignment.Right;
             // 
             // label7
             // 

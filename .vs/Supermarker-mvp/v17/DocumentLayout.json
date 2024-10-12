@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\views\\productsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:views\\productsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\views\\productsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:views\\productsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\._repositories\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:._repositories\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\._repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:._repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\presenters\\productspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:presenters\\productspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\._repositories\\paymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:._repositories\\paymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\models\\productsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:models\\productsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|c:\\users\\rosa\\onedrive\\escritorio\\parcial 2 consolidado\\supermarker-mvp\\._repositories\\customersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B162E5ED-9CE7-49A3-A3C3-F18AD0552AB6}|Supermarker-mvp.csproj|solutionrelative:._repositories\\customersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsView.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\ProductsView.cs",
-              "RelativeDocumentMoniker": "Views\\ProductsView.cs",
-              "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\ProductsView.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Views\\ProductsView.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T04:41:52.609Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\._Repositories\\ProductsRepository.cs",
               "RelativeDocumentMoniker": "._Repositories\\ProductsRepository.cs",
               "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\._Repositories\\ProductsRepository.cs",
               "RelativeToolTip": "._Repositories\\ProductsRepository.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAApwFMAAAA/AAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T03:25:42.113Z",
+              "WhenOpened": "2024-10-12T05:00:39.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsView.cs",
-              "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\ProductsView.cs",
-              "RelativeDocumentMoniker": "Views\\ProductsView.cs",
-              "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Views\\ProductsView.cs*",
-              "RelativeToolTip": "Views\\ProductsView.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAdAAAA",
+              "DocumentIndex": 0,
+              "Title": "CategoriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\._Repositories\\CategoriesRepository.cs",
+              "RelativeDocumentMoniker": "._Repositories\\CategoriesRepository.cs",
+              "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\._Repositories\\CategoriesRepository.cs*",
+              "RelativeToolTip": "._Repositories\\CategoriesRepository.cs*",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCsAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T21:16:14.874Z",
+              "WhenOpened": "2024-10-12T05:00:25.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductsPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Presenters\\ProductsPresenter.cs",
-              "RelativeDocumentMoniker": "Presenters\\ProductsPresenter.cs",
-              "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Presenters\\ProductsPresenter.cs",
-              "RelativeToolTip": "Presenters\\ProductsPresenter.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAADwvzgAAAA/AAAA",
+              "Title": "CustomersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\._Repositories\\CustomersRepository.cs",
+              "RelativeDocumentMoniker": "._Repositories\\CustomersRepository.cs",
+              "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\._Repositories\\CustomersRepository.cs",
+              "RelativeToolTip": "._Repositories\\CustomersRepository.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAowHcAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T21:26:52.325Z",
+              "WhenOpened": "2024-10-12T04:56:40.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductsModel.cs",
-              "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Models\\ProductsModel.cs",
-              "RelativeDocumentMoniker": "Models\\ProductsModel.cs",
-              "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\Models\\ProductsModel.cs",
-              "RelativeToolTip": "Models\\ProductsModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAxAAAA",
+              "DocumentIndex": 2,
+              "Title": "PayModeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\._Repositories\\PayModeRepository.cs",
+              "RelativeDocumentMoniker": "._Repositories\\PayModeRepository.cs",
+              "ToolTip": "C:\\Users\\Rosa\\OneDrive\\Escritorio\\Parcial 2 consolidado\\Supermarker-mvp\\._Repositories\\PayModeRepository.cs",
+              "RelativeToolTip": "._Repositories\\PayModeRepository.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowGUAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T19:57:08.793Z",
+              "WhenOpened": "2024-10-12T04:56:15.994Z",
               "EditorCaption": ""
             }
           ]

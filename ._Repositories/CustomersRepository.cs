@@ -117,7 +117,7 @@ namespace Supermarker_mvp._Repositories
                 connection.Open();
                 command.Connection = connection;
                 command.CommandText = @"SELECT * FROM Customers
-                                        WHERE Customers_Id=@id or Customers_First_Name LIKE @name '%'
+                                        WHERE Customers_Id=@id or Customers_First_Name LIKE @name+ '%'
                                         ORDER By Customers_Id DESC";
                 command.Parameters.Add("@id", SqlDbType.Int).Value = customersId;
                 command.Parameters.Add("@name", SqlDbType.NVarChar).Value = customersFirst_Name;
